@@ -1,0 +1,11 @@
+package pe.com.spring.batch.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import pe.com.spring.batch.model.Person;
+
+@Repository
+public interface PersonRepository extends JpaRepository<Person, Integer>{
+
+}
